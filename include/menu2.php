@@ -14,13 +14,13 @@
 			
 				<!--menu de la présentation de l'entreprise-->
 				
-				<li><br/><a href='../presentation/presentation2.php'><img src="../images/gif/Pre.gif"   style="margin-left: 100px" onmouseover="this.src='../images/gif/Pre2.gif'" onmouseout="this.src='../images/gif/Pre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 105px">Présentation</font></a>
+				<li><br/><a href='../presentation/presentation2.php'><img src="../images/gif/Pre.gif"   style="margin-left: 95px" onmouseover="this.src='../images/gif/Pre2.gif'" onmouseout="this.src='../images/gif/Pre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 105px">Présentation</font></a>
 					
 				</li>
 				
 				<!--menu de notre savoir faire-->
 				
-				<li><br/><a href='#'><img src="../images/gif/S.gif"  style="margin-left:79px" onmouseover="this.src='../images/gif/S2.gif'" onmouseout="this.src='../images/gif/S.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 88px">Savoir faire</font></a>
+				// <li><br/><a href='#'><img src="../images/gif/S.gif"  style="margin-left:82px" onmouseover="this.src='../images/gif/S2.gif'" onmouseout="this.src='../images/gif/S.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 89px">Savoir faire</font></a>
 				
 					<ul>
 						<li><a><font size='4'>Flyers</font></a>
