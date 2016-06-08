@@ -19,7 +19,7 @@
 			<!--logo entreprise-->
 			
 			<div id='photobasC'>
-				<img src='..\images\logoBas.png' height='80px' width='200px'/>
+				<center><img src='..\images\logoBas.png' height='80px' width='200px'/></center>
 			</div>	
 			
 			<!--localisation de l'entreprise-->

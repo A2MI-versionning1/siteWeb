@@ -34,7 +34,6 @@
 			
 			<!--Le code du formulaire-->
 			
-			<a href="#situer">Situer l'entreprise</a>		
 			<center>
 			<h3>Formulaire Contact</h3>
 			<label>Votre nom* <br/><input type="text" name="Nom" required></label><br/><br/>
@@ -57,7 +56,7 @@
 			
 			<!--Informations de la société-->
 			
-			Société A&M<br/>
+			Société A&M <br/>
 			10-14 Rue Jean Perrin<br/>
 			17000 La Rochelle<br/>
 			tel:<br/>

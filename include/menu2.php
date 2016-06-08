@@ -14,13 +14,13 @@
 			
 				<!--menu de la présentation de l'entreprise-->
 				
-				<li><br/><a href='../presentation/presentation2.php'><img src="../images/gif/Pre.gif"   style="margin-left: 110px" onmouseover="this.src='../images/gif/Pre2.gif'" onmouseout="this.src='../images/gif/Pre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 114px">Présentation</font></a>
+				<li><br/><a href='../presentation/presentation2.php'><img src="../images/gif/Pre.gif"   style="margin-left: 100px" onmouseover="this.src='../images/gif/Pre2.gif'" onmouseout="this.src='../images/gif/Pre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 105px">Présentation</font></a>
 					
 				</li>
 				
 				<!--menu de notre savoir faire-->
 				
-				<li><br/><a href='#'><img src="../images/gif/S.gif"  style="margin-left: 72px" onmouseover="this.src='../images/gif/S2.gif'" onmouseout="this.src='../images/gif/S.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Savoir faire</font></a>
+				<li><br/><a href='#'><img src="../images/gif/S.gif"  style="margin-left:79px" onmouseover="this.src='../images/gif/S2.gif'" onmouseout="this.src='../images/gif/S.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 88px">Savoir faire</font></a>
 				
 					<ul>
 						<li><a><font size='4'>Flyers</font></a>
@@ -39,12 +39,12 @@
 			
 				<!--menu pour vos réalisations types-->
 				
-				<li><br/><a href='../realisation/realisation.php'><img src="../images/gif/cre.gif"  style="margin-left:85px" onmouseover="this.src='../images/gif/cr2.gif'" onmouseout="this.src='../images/gif/cre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Vos réalisations</font></a>
+				<li><br/><a href='../realisation/realisation.php'><img src="../images/gif/cre.gif"  style="margin-left:90px" onmouseover="this.src='../images/gif/cr2.gif'" onmouseout="this.src='../images/gif/cre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 85px">Vos réalisations</font></a>
 				
 				</li>
 				<!--menu nos réalisation et références-->
 				
-				<li><br/><a href='#'><img src="../images/gif/ref.gif"  style="margin-left: 83px" onmouseover="this.src='../images/gif/Ref2.gif'" onmouseout="this.src='../images/gif/ref.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Nos références</font></a>
+				<li><br/><a href='#'><img src="../images/gif/ref.gif"  style="margin-left: 80px" onmouseover="this.src='../images/gif/Ref2.gif'" onmouseout="this.src='../images/gif/ref.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 78px">Nos références</font></a>
 				
 					<ul>
 						<li><a><font size='4'>Flyers</font></a>
@@ -63,7 +63,7 @@
 				
 				<!--menu contact-->
 				
-				<li><br/><a href='../contacter/formulaireContact2.php'><img src="../images/gif/crea.gif"  style="margin-left: 60px" onmouseover="this.src='../images/gif/crea2.gif'" onmouseout="this.src='../images/gif/crea.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Contact</font></a>
+				<li><br/><a href='../contacter/formulaireContact2.php'><img src="../images/gif/crea.gif"  style="margin-left: 77px" onmouseover="this.src='../images/gif/crea2.gif'" onmouseout="this.src='../images/gif/crea.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 100px">Contact</font></a>
 					
 					<ul>
 						<li><a href='../contacter/formulaireContact2.php'><font size='4'>Formulaire contact</font></a></li>
