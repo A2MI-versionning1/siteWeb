@@ -391,7 +391,7 @@ p {
  
 fieldset {
   margin-bottom: 15px;
-  padding: 10px;
+  padding: 0px;
 }
  
 legend {
@@ -418,7 +418,7 @@ input:focus {
 }
  
 input, textarea {
-  width: 249px;
+  width: 249px; /*problème des radio à cause de ça*/
 }
  
 textarea {
@@ -426,7 +426,7 @@ textarea {
 }
  
 select {
-  width: 254px;
+  width: 200px;
 }
  
 input[type=checkbox] {
@@ -434,7 +434,7 @@ input[type=checkbox] {
 }
  
  input [type=radio]{
-  text-align:center;
+  width: 0px;
  }
 input[type=submit] {
   width: 150px;

@@ -61,9 +61,9 @@
 						<label for="email">Votre adresse Email<em>*</em></label><br>
 						<input id="email" type="email" placeholder="****@A&M.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*"><br>
 						<label for="demande"><h4>Objet de votre demande</h4></label><br>
-						<input type="radio" id="demande" value="Demande de devis" required="">Demande de devis<br>
-						<input type="radio" id="demande" value="Demande d'informations" required="">Demande d'informations<br>
-						<input type="radio" id="demande" value="Autres" required="">Autres<br><br>
+						<label for="devis"><input id="devis" type="checkbox" name="demande" value="devis" >Demande de devis</label><br>
+						<label for="infos"><input id="infos" type="checkbox" name="demande" value="informations" >Demande d'informations</label><br>
+						<label for="autres"><input id="autres" type="checkbox" name="demande" value="Autres">Autres</label><br>
 						<label> Votre message</label><br>
 						<textarea id="comments"></textarea>
 					</fieldset>
