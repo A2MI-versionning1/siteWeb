@@ -315,12 +315,16 @@ html, body{
 	padding:6px 9px;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #d6d3d6;
-
+	transition-property: top;
+	-webkit-transition-property: top;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+	top: 15px;
 }
 .myButton:hover {
-	background-color:transparent;
-	top:1px;
+	top: 0px;
 }
+
 
 img.zoomEffect {
     -moz-transition: all 0.5s ease-in-out 0s;

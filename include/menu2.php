@@ -20,7 +20,7 @@
 				
 				<!--menu de notre savoir faire-->
 				
-				<li><br/><a href='../savoirFaire/savoirfaire.html'><img src="../images/gif/S.gif"  style="margin-left: 72px" onmouseover="this.src='../images/gif/S2.gif'" onmouseout="this.src='../images/gif/S.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Savoir faire</font></a>
+				<li><br/><a href='#'><img src="../images/gif/S.gif"  style="margin-left: 72px" onmouseover="this.src='../images/gif/S2.gif'" onmouseout="this.src='../images/gif/S.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Savoir faire</font></a>
 				
 					<ul>
 						<li><a><font size='4'>Flyers</font></a>
@@ -44,7 +44,7 @@
 				</li>
 				<!--menu nos réalisation et références-->
 				
-				<li><br/><a href='../references/referencesR.php'><img src="../images/gif/ref.gif"  style="margin-left: 83px" onmouseover="this.src='../images/gif/Ref2.gif'" onmouseout="this.src='../images/gif/ref.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Nos références</font></a>
+				<li><br/><a href='#'><img src="../images/gif/ref.gif"  style="margin-left: 83px" onmouseover="this.src='../images/gif/Ref2.gif'" onmouseout="this.src='../images/gif/ref.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 80px">Nos références</font></a>
 				
 					<ul>
 						<li><a><font size='4'>Flyers</font></a>

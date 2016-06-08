@@ -25,18 +25,18 @@
 			
 				<!--menu flyers-->
 				
-				<li><br/><a href='../realisation/Flyers.php'><img src="../images/plateforme/F.png"  style="margin-left:85px" onmouseover="this.src='../images/plateforme/F2.png'" onmouseout="this.src='../images/plateforme/F.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 113px">Flyers</font></a>
+				<li><br/><a href='../realisation/FlyersRT.php'><img src="../images/plateforme/F.png"  style="margin-left:85px" onmouseover="this.src='../images/plateforme/F2.png'" onmouseout="this.src='../images/plateforme/F.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 113px">Flyers</font></a>
 				
 				</li>
 				<!--menu logos-->
 				
-				<li><br/><a href='../realisation/Logo.php'><img src="../images/plateforme/L.png"  style="margin-left: 83px" onmouseover="this.src='../images/plateforme/L2.png'" onmouseout="this.src='../images/plateforme/L.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 115px">Logo</font></a>
+				<li><br/><a href='../realisation/LogoRT.php'><img src="../images/plateforme/L.png"  style="margin-left: 83px" onmouseover="this.src='../images/plateforme/L2.png'" onmouseout="this.src='../images/plateforme/L.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 115px">Logo</font></a>
 				
 					
 				
 				<!--menu références et réalisations-->
 				
-				<li><br/><a href='../references/referencesR.php'><img src="../images/plateforme/R.png"  style="margin-left: 60px" onmouseover="this.src='../images/plateforme/R2.png'" onmouseout="this.src='../images/plateforme/R.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 55px">Nos références</font></a>
+				<li><br/><a href='#'><img src="../images/plateforme/R.png"  style="margin-left: 60px" onmouseover="this.src='../images/plateforme/R2.png'" onmouseout="this.src='../images/plateforme/R.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 55px">Nos références</font></a>
 					<ul>
 						<li><a><font size='4'>Flyers</font></a>
 							<ul>
