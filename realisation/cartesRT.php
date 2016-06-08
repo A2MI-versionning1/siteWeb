@@ -15,7 +15,7 @@
 		<!--fais appel à la page haut2.php grâce à la méthode 'include'-->
 	
 		<?php 
-			include ('../include/haut2.php');
+			include ('../include/hautP.php');
 		?>
 		
 		<!--Affiche le titre de la page-->
@@ -29,7 +29,7 @@
 		<!--fais appel à la page menu2.php grâce à la méthode 'include'-->
 		
 		<?php 
-			include ('../include/menu2.php');
+			include ('../include/menuP.php');
 		?>
 		
 		<!--Affiche le texte dans la bande blanche-->
