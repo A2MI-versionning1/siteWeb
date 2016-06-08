@@ -330,6 +330,7 @@ img.zoomEffect {
     transition: all 0.5s ease-in-out 0s;
     opacity: 1;
 }
+
 img.zoomEffect:hover {
     -moz-transform: rotate(0deg) scale(1.15);
     -webkit-transform: rotate(0deg) scale(1.15);
@@ -355,6 +356,7 @@ img.zoomEffect:hover {
 	border:solid;
 
 }
+
 #texteffet {
 		color: #d1d9df;
 		font-family:fantasy;
@@ -375,9 +377,4 @@ img.zoomEffect:hover {
 	-moz-transition: -moz-transform 0.5s ease-in-out;
 	-o-transition: -o-transform 0.5s ease-in-out;
 	-webkit-transition: -webkit-transform 0.5s ease-in-out;
-	
 }
-
-/*coucou*/
-/*fgsuhfuidbhfbhdivbsfuigbuisg*/
-/*test4*/
