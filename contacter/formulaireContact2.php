@@ -52,14 +52,13 @@
 						<input id="codePostal" placeholder="ex: 17000" autofocus="" required=""><br><br>
 						<label for="ville">Votre ville <em>*</em></label><br>
 						<input id="ville" placeholder="ex: La Rochelle" autofocus="" required=""><br><br>
-					
 					</fieldset>
 					<fieldset>
 						<legend>Contact</legend>
 						<label for="telephone">Votre numéro de téléphone</label><br>
 						<input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
 						<label for="email">Votre adresse Email<em>*</em></label><br>
-						<input id="email" type="email" placeholder="****@A&M.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*"><br><br>
+						<input id="email" type="email" placeholder="****@A&M.com" required=""><br><br>
 						<label>Objet de votre demande</label><br>
 						<select name="field4" class="field-select">
 						<option value="demande">Demande de devis</option>
@@ -71,26 +70,26 @@
 					</fieldset>
 					<p><input type="submit" value="Envoyer"></p>
 				</form>
-		</center>
+			</center>
 				  
 				 
-				<!--Informations de la société-->
+			<!--Informations de la société-->
+			<br/>
+			<center>
+				Société A&M <br/>
+				10-14 Rue Jean Perrin<br/>
+				17000 La Rochelle<br/>
+				tel:<br/>
+				mail:<br/>
 				<br/>
-				<center>
-					Société A&M <br/>
-					10-14 Rue Jean Perrin<br/>
-					17000 La Rochelle<br/>
-					tel:<br/>
-					mail:<br/>
-					<br/>
+			
+			<!--Affiche la google maps mais le 'div' ici permet grâce à un bouton plus haut de se venir directement sur la carte-->
 				
-					<!--Affiche la google maps mais le 'div' ici permet grâce à un bouton plus haut de se venir directement sur la carte-->
-					
-				<div id='situer'>
-					<iframe class='image' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.510500826513!2d-1.1606506842403663!3d46.14057969607641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480153c3ce366eb1%3A0xa8d4c57b22fe53c7!2sRue+Jean+Perrin%2C+17000+La+Rochelle!5e0!3m2!1sfr!2sfr!4v1464162679866" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</center>
-					<br/>
-				</div>
+			<div id='situer'>
+				<iframe class='image' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.510500826513!2d-1.1606506842403663!3d46.14057969607641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480153c3ce366eb1%3A0xa8d4c57b22fe53c7!2sRue+Jean+Perrin%2C+17000+La+Rochelle!5e0!3m2!1sfr!2sfr!4v1464162679866" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</center>
+				<br/>
+			</div>
 			
 			<!--fais appel à la page bas2.php grâce à la méthode 'include'-->
 			
