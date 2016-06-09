@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-	<form action="mailto:votrenom@provider.com" method="post" name="contact">
 	
 		<!--En tête de la page -->
 		
@@ -36,7 +35,7 @@
 			
 			<center>
 				<h2>Formulaire de contact</h2>
-				<form action="#">
+				<form  method="post" action="traitement.php">
 					<p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
 					<fieldset>
 						<legend>Informations personnelles</legend>
