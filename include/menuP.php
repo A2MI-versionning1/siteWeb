@@ -33,17 +33,21 @@
 				
 				<li><br/><a href='#'><img src="../images/plateforme/R.png"  style="margin-left: 90px" onmouseover="this.src='../images/plateforme/R2.png'" onmouseout="this.src='../images/plateforme/R.png'" height='100px' width='100px'/></br><font color='white' style="margin-left: 88px">Nos références</font></a>
 					<ul>
-						<li><a><font size='4'>Flyers</font></a>
-							<ul>
-								<li><a href='../references/A4R.php'><font size='4'>A4</font></a></li>
-								<li><a href='../references/A5R.php'><font size='4'>A5</font></a></li>
-								<li><a href='../references/A6R.php'><font size='4'>A6</font></a></li>
-							</ul>
-						</li>
-						<li><a href='../references/logoR.php'><font size='4'>Logos</font></a></li>
-						<li><a href='../references/cartesR.php'><font size='4'>Cartes de visites</font></a></li>
-						<li><a href='../references/etiquetteR.php'><font size='4'>Etiquettes</font></a></li>
-						<li><a href='../references/chartesR.php'><font size='4'>Chartes graphiques</font></a></li>
+						<div id="flyers">
+							<li><a><font size='4'>Flyers</font></a>
+								<ul>
+									<div id="A456">
+										<li><a href='../references/A4R.php'><font size='4'>A4</font></a></li>
+										<li><a href='../references/A5R.php'><font size='4'>A5</font></a></li>
+										<li><a href='../references/A6R.php'><font size='4'>A6</font></a></li>
+									</div>
+								</ul>
+							</li>
+							<div id='Logos'><li><a href='../references/logoR.php'><font size='4'>Logos</font></a></li></div>
+							<div id='Cartes'><li><a href='../references/cartesR.php'><font size='4'>Cartes de visites</font></a></li></div>
+							<div id='Etiquettes'><li><a href='../references/etiquetteR.php'><font size='4'>Etiquettes</font></a></li></div>
+							<div id='Chartes'><li><a href='../references/chartesR.php'><font size='4'>Chartes graphiques</font></a></li></div>
+						</div>
 					</ul>
 				</li>
 					<!--menu logos-->

@@ -46,10 +46,9 @@
 				<li><br/><a href='../realisation/realisation.php'><img src="../images/gif/cre.gif"  style="margin-left:90px" onmouseover="this.src='../images/gif/cr2.gif'" onmouseout="this.src='../images/gif/cre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 85px">Vos réalisations</font></a>
 				
 				</li>
-				<!--menu nos réalisation et références-->
+				<!--menu nos réalisations et références-->
 				
 				<li><br/><a href='#'><img src="../images/gif/ref.gif"  style="margin-left: 80px" onmouseover="this.src='../images/gif/Ref2.gif'" onmouseout="this.src='../images/gif/ref.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 78px">Nos références</font></a>
-				
 					<ul>
 						<div id="flyers">
 							<li><a><font size='4'>Flyers</font></a>
