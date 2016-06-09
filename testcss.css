@@ -435,7 +435,10 @@ input[type=checkbox] {
  
  input [type=radio]{
   width: 0px;
+  margin: 0;
+  vertical-align: middle;
  }
+ 
 input[type=submit] {
   width: 150px;
   padding: 10px;

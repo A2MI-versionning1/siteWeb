@@ -59,11 +59,13 @@
 						<label for="telephone">Votre numéro de téléphone</label><br>
 						<input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
 						<label for="email">Votre adresse Email<em>*</em></label><br>
-						<input id="email" type="email" placeholder="****@A&M.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*"><br>
-						<label for="demande"><h4>Objet de votre demande</h4></label><br>
-						<label for="devis"><input id="devis" type="checkbox" name="demande" value="devis" >Demande de devis</label><br>
-						<label for="infos"><input id="infos" type="checkbox" name="demande" value="informations" >Demande d'informations</label><br>
-						<label for="autres"><input id="autres" type="checkbox" name="demande" value="Autres">Autres</label><br>
+						<input id="email" type="email" placeholder="****@A&M.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*"><br><br>
+						<label>Objet de votre demande</label><br>
+						<select name="field4" class="field-select">
+						<option value="demande">Demande de devis</option>
+						<option value="infos">Demandes d'informations</option>
+						<option value="autres">Autres</option>
+						</select><br><br>
 						<label> Votre message</label><br>
 						<textarea id="comments"></textarea>
 					</fieldset>
