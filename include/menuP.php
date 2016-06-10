@@ -44,7 +44,7 @@
 								</ul>
 							</li>
 							<div id='Logos'><li><a href='../references/logoR.php'><font size='4'>Logos</font></a></li></div>
-							<div id='Cartes'><li><a href='../references/cartesR.php'><font size='4'>Cartes de visites</font></a></li></div>
+							<div id='Cartes'><li><a href='../references/cartesR.php'><font size='4'>Cartes de visite</font></a></li></div>
 							<div id='Etiquettes'><li><a href='../references/etiquetteR.php'><font size='4'>Etiquettes</font></a></li></div>
 							<div id='Chartes'><li><a href='../references/chartesR.php'><font size='4'>Chartes graphiques</font></a></li></div>
 						</div>

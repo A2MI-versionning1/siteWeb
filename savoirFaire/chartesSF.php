@@ -22,7 +22,7 @@
 		
 		<div id='ecritureHaut'>
 			<div id='centerb1'>
-				<font color='white' size='7'>Chartes de graphiques</font></br>
+				<font color='white' size='7'>Chartes graphiques</font></br>
 			</div>
 		</div>
 		

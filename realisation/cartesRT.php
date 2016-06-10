@@ -22,7 +22,7 @@
 		
 		<div id='ecritureHaut'>
 			<div id='centerb1'>
-				<font color='white' size='7'>Cartes de visites</font></br>
+				<font color='white' size='7'>Cartes de visite</font></br>
 			</div>
 		</div>
 		
