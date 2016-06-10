@@ -4,10 +4,6 @@ html, body{
    outline: 0px;
    height: 100%;
 }
-    
-	
-	
-	
 	
 @media all and (max-width:1480px) {
 	
@@ -321,8 +317,15 @@ p {
 }
  
 fieldset {
-  margin-bottom: 15px;
-  padding: 0px;
+   background-color: #ffffff;
+    width: 500px;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    border: 2px solid grey;
+ 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
  
 legend {
