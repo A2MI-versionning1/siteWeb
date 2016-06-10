@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	
+
 		<!--En tête de la page -->
 		
 		<head> 
@@ -40,17 +40,17 @@
 					<fieldset>
 						<legend>Informations personnelles</legend>
 						<label for="nom">Votre Nom <em>*</em></label><br>
-						<input id="nom" placeholder="ex: Fouillen" autofocus="" required=""><br><br>
+						<input id="nom" placeholder="ex: Fouillen" required=""><br><br>
 						<label for="prenom">Votre Prénom <em>*</em></label><br>
-						<input id="prenom" placeholder="ex: Michel" autofocus="" required=""><br><br>
+						<input id="prenom" placeholder="ex: Michel" required=""><br><br>
 						<label for="societe">Votre société</label><br>
-						<input id="societe" placeholder="ex: A2MI" autofocus=""><br><br>
+						<input id="societe" placeholder="ex: A2MI" ><br><br>
 						<label for="adresse">Votre adresse <em>*</em></label><br>
-						<input id="adresse" placeholder="ex: rue de Suède" autofocus="" required=""><br><br>
+						<input id="adresse" placeholder="ex: rue de Suède" required=""><br><br>
 						<label for="codePostal">Votre code postal <em>*</em></label><br>
-						<input id="codePostal" placeholder="ex: 17000" autofocus="" required=""><br><br>
+						<input id="codePostal" placeholder="ex: 17000" required=""><br><br>
 						<label for="ville">Votre ville <em>*</em></label><br>
-						<input id="ville" placeholder="ex: La Rochelle" autofocus="" required=""><br><br>
+						<input id="ville" placeholder="ex: La Rochelle" required=""><br><br>
 					</fieldset>
 					<fieldset>
 						<legend>Contact</legend>
@@ -71,8 +71,8 @@
 				</form>
 			</center>
 				  
-				 
 			<!--Informations de la société-->
+			
 			<br/>
 			<center>
 				Société A&M <br/>
@@ -96,5 +96,4 @@
 				include ('../include/bas2.php');
 			?>
 		</body>
-	</form>
 </html>
