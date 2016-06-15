@@ -20,8 +20,8 @@ html, body{
 a.inscription {
 	text-decoration:none;
 	position: relative;
-	top:-145px;
-	right: -950px;
+	top:-83%;
+	right: -66.4%;
 	border: 2px;
 	font-family: times new roman;
 	color:white;
@@ -30,8 +30,8 @@ a.inscription {
 a.connexion{
 	text-decoration:none;
 	position: relative;
-	top:-120px;
-	right: -850px;
+	top:-70%;
+	right: -66.4%;
 	border: 2px;
 	font-family: times new roman;
 	color:white;
