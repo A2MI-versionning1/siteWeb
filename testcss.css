@@ -5,6 +5,7 @@ html, body{
    height: 100%;
    
 }
+
 	
 #bande1{ 
 	padding: 0px; 
@@ -17,6 +18,8 @@ html, body{
 
 } 
 
+/* Bouton inscription sur la plateforme*/
+
 a.inscription {
 	text-decoration:none;
 	position: relative;
@@ -27,6 +30,7 @@ a.inscription {
 	color:white;
 }
 
+/* Bouton connexion sur la plateforme*/
 a.connexion{
 	text-decoration:none;
 	position: relative;
@@ -83,17 +87,23 @@ a.connexion{
     background-size: cover;
 }
 
+/* Titre des pages*/
+
 #centerb1{
 	position:absolute;
 	right:15%;
 	top:55%
 }
 
+/*Infos sur la société*/
+
 #droitb5{
 	position:absolute;
 	right:0;
 	bottom:6.5%;
 }
+
+/*Titre des pages (englobe "centerb1")*/
 
 #ecritureHaut {
 	position: relative;
@@ -103,6 +113,8 @@ a.connexion{
 	font-family: times new roman;
 }
 
+/*Logo du bas*/
+
 #photobasC{
 	position: absolute;
 	left:40%;
@@ -110,6 +122,8 @@ a.connexion{
 	bottom:7%;
 	border: none;
 }
+
+/*Flèche en bas à droite pour remonter la page*/
 
 #Fleche2{
 	bottom:5%;
@@ -146,6 +160,8 @@ a.connexion{
 	text-decoration: none;
 	text-shadow: 0 1px 0 #000;
 }
+
+/*Affiche le sous menu*/
 
 #menu li:hover > ul
 {
@@ -198,6 +214,8 @@ a.connexion{
 	text-transform: none;
 }
 
+/*Affiche le sous sous menu*/
+
 #menu ul  ul a:hover
 {
 	width:40px;	
@@ -240,6 +258,9 @@ a.connexion{
 	height: 0;
 }
 
+
+/*Classe des boutons du bas*/
+
 .myButton {	
 	-moz-box-shadow:inset 0px 1px 3px 0px #d6d3d6;
 	-webkit-box-shadow:inset 0px 1px 3px 0px #d6d3d6;
@@ -268,10 +289,13 @@ a.connexion{
 	top: 15px;
 }
 
+/*Permet de faire l'effet montant*/
+
 .myButton:hover {
 	top: 0px;
 }
 
+/*Permet d'avoir un effet de zoom et une rotate sur la flèche(garder les deux sinon ne fonctionnent plus)*/
 
 img.zoomEffect {
     -moz-transition: all 0.5s ease-in-out 0s;
@@ -291,6 +315,8 @@ img.zoomEffect:hover {
     opacity: 1;
 }
 
+/*Logo sur la bande colorée*/
+
 #imageBande2{
 	position: absolute;
 	right: 2%;
@@ -298,6 +324,7 @@ img.zoomEffect:hover {
 	border: none;
 }
 
+/*Effet de slide sur la bande colorée*/
 #slides div {
 	height: 220px; /* Égal à la hauteur de l'image */
 	margin: -10px;
@@ -307,10 +334,7 @@ img.zoomEffect:hover {
 	border:solid;
 }
 
-#texteffet {
-		color: #d1d9df;
-		font-family:fantasy;
-}
+/*Permet de gérer le pourcentage de décalage de la bande en passant dessus avec le curseurs*/
 
 #slides div:hover img {
 	transform: translateX(30%); /* Valeur négative égale à la hauteur de l'image */
@@ -328,12 +352,20 @@ img.zoomEffect:hover {
 	-o-transition: -o-transform 0.5s ease-in-out;
 	-webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
+/*Définit les caractéristiques de l'écriture sous la bande colorée*/
+
+#texteffet {
+		color: #d1d9df;
+		font-family:fantasy;
+}
 
 /*Formulaire*/
 
 p {
   margin-top: 0px;
 }
+ 
+ /*Permet d'avoir un contour du formulaire*/
  
 fieldset {
    background-color: #ffffff;
@@ -347,6 +379,7 @@ fieldset {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
+ /*Permet d'avoir un titre par partie*/
  
 legend {
   padding: 0px 3px;
@@ -354,13 +387,16 @@ legend {
   font-variant: small-caps;
 }
  
+ /*Tout les paramètres du formulaire*/
 label {
   width: 150px;
   display: inline-block;
   vertical-align: top;
   margin: 6px;
 }
- 
+
+/*Définit la couleur des "*"*/
+
 em {
   font-weight: bold;
   font-style: normal;
@@ -372,7 +408,7 @@ input:focus {
 }
  
 input, textarea {
-  width: 249px; /*problème des radio à cause de ça*/
+  width: 249px;
 }
  
 textarea {
@@ -391,7 +427,6 @@ input[type=submit] {
   width: 150px;
   padding: 10px;
 }
-
 
 /* Couleur du menu*/
 
