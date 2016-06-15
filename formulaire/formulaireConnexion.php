@@ -42,6 +42,7 @@
 				</form>
 			</center>
 
+
 			<!--fais appel à la page bas2.php grâce à la méthode 'include'-->
 			
 			<?php
