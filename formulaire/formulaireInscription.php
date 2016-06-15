@@ -47,9 +47,9 @@
 						<label for="ville">Votre ville <em>*</em></label><br>
 						<input id="ville" placeholder="ex: La Rochelle" required=""><br><br>
 						<label for="password">Votre mot de passe <em>*</em></label><br>
-						<input type="password" name="passe" minlength="6" placeholder="******" required=""  pattern="{6,}"><br><br>
+						<input type="password" name="passe" minlength="6" placeholder="******" required=""/><br><br>
 						<label>Confirmation du mot de passe: <em>*</em></label><br>
-						<input type="password" name="passe2" minlength="6"/></br></br>
+						<input type="password" name="passe2" minlength="6" placeholder="******" required=""/></br></br>
 					</fieldset>
 					<fieldset>
 						<legend>Contact</legend>
