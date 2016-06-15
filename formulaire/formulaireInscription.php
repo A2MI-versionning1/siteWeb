@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 		<!--En tête de la page -->
 		<head> 
@@ -8,23 +9,23 @@
 		<!--Corps de la page -->
 		<body>
 				
-		<!--fais appel à la page haut2.php grâce à la méthode 'include'-->
+		<!--fais appel à la page hautP.php grâce à la méthode 'include'-->
 			<?php 	
-				include ('../include/haut2.php');
+				include ('../include/hautP.php');
 			?>
 			
 			<!--Permet d'afficher le nom de la page en haut-->
 				
 			<div id='ecritureHaut'>
 				<div id='centerb1'>
-					<font color='white' size='7'>Créons à votre image</font>
+					<font color='white' size='7'>Formulaire d'inscription</font>
 				</div>
 			</div>
 			
-			<!--fais appel à la page haut2.php grâce à la méthode 'include'-->
+			<!--fais appel à la page menuP.php grâce à la méthode 'include'-->
 			
 			<?php
-				include ('../include/menu2.php');
+				include ('../include/menuP.php');
 			?>
 			
 			<center>
