@@ -18,6 +18,8 @@
 			</br>
 			&nbsp; 
 			<a href='../realisation/realisation.php' style="text-decoration:none"><img src='..\images\logo.png' height='150px' width='200px'/></a>
+				<a href='../formulaire/formulaireInscription.php' class="inscription">Inscrivez-vous</a>
+				<a href='../formulaire/formulaireConnexion.php' class="connexion">Connectez-vous</a>
 		</div>
 		
 		<!--Fais appel à la méthode css bande2 via le div-->
