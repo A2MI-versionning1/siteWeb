@@ -34,7 +34,7 @@
 					<fieldset>
 						<legend>Connexion</legend>
 						<label for="mail">E-MAIL </label><br>
-						<input id="nom" placeholder="ex: blabla@gmail.com" required=""><br><br>
+						<input id="nom" type="email" placeholder="ex: blabla@gmail.com" required=""><br><br>
 						<label for="password">Mot de passe </label><br>
 						<input id="password" type="password" placeholder="******" required=""><br><br>
 					</fieldset>
