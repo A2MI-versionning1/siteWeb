@@ -3,7 +3,6 @@ html, body{
    padding: 0px;
    outline: 0px;
    height: 100%;
-   
 }
 
 	
@@ -15,7 +14,6 @@ html, body{
 	width: 100%; 
 	height: 175px; 
 	background-color: black; 
-
 } 
 
 /* Bouton inscription sur la plateforme*/
@@ -31,6 +29,7 @@ a.inscription {
 }
 
 /* Bouton connexion sur la plateforme*/
+
 a.connexion{
 	text-decoration:none;
 	position: relative;
@@ -258,7 +257,6 @@ a.connexion{
 	height: 0;
 }
 
-
 /*Classe des boutons du bas*/
 
 .myButton {	
@@ -325,6 +323,7 @@ img.zoomEffect:hover {
 }
 
 /*Effet de slide sur la bande colorée*/
+
 #slides div {
 	height: 220px; /* Égal à la hauteur de l'image */
 	margin: -10px;
@@ -355,77 +354,79 @@ img.zoomEffect:hover {
 /*Définit les caractéristiques de l'écriture sous la bande colorée*/
 
 #texteffet {
-		color: #d1d9df;
-		font-family:fantasy;
+	color: #d1d9df;
+	font-family:fantasy;
 }
 
 /*Formulaire*/
 
 p {
-  margin-top: 0px;
+	margin-top: 0px;
 }
  
  /*Permet d'avoir un contour du formulaire*/
  
 fieldset {
-   background-color: #ffffff;
-    width: 500px;
-    margin: 0 auto 15px auto;
-    padding: 10px;
-    border: 2px solid grey;
+	background-color: #ffffff;
+	width: 500px;
+	margin: 0 auto 15px auto;
+	padding: 10px;
+	border: 2px solid grey;
 	background-image:url(images/bandeDegradee2.png);
-	
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
+
  /*Permet d'avoir un titre par partie*/
  
 legend {
-  padding: 0px 3px;
-  font-weight: bold;
-  font-variant: small-caps;
+	padding: 0px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
 }
  
  /*Tout les paramètres du formulaire*/
+ 
 label {
-  width: 150px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px;
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px;
 }
 
 /*Définit la couleur des "*"*/
 
 em {
-  font-weight: bold;
-  font-style: normal;
-  color: #f00;
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
 }
  
 input:focus {
-  background: #eaeaea;
+	background: #eaeaea;
 }
  
 input, textarea {
-  width: 249px;
+	width: 249px;
 }
  
 textarea {
-  height: 100px;
+	height: 100px;
+	resize:none;
 }
  
 select {
-  width: 200px;
+	width: 200px;
 }
  
 input[type=checkbox] {
-  width: 10px;
+	width: 10px;
 }
  
 input[type=submit] {
-  width: 150px;
-  padding: 10px;
+	width: 150px;
+	padding: 10px;
 }
 
 /* Couleur du menu*/
