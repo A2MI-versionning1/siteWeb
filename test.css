@@ -6,7 +6,6 @@ html, body{
    
 }
 
-	
 #bande1{ 
 	padding: 0px; 
 	margin: 0px;
@@ -373,7 +372,6 @@ fieldset {
     padding: 10px;
     border: 2px solid grey;
 	background-image:url(images/bandeDegradee2.png);
-	
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -412,6 +410,7 @@ input, textarea {
  
 textarea {
   height: 100px;
+  resize:none;
 }
  
 select {
