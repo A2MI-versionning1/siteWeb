@@ -13,7 +13,7 @@
 	
 	<body>
 		
-		<!--fais appel à la page haut2.php grâce à la méthode 'include'-->
+		<!--fais appel à la page hautP.php grâce à la méthode 'include'-->
 		
 		<?php 
 			include ('../include/hautP.php');

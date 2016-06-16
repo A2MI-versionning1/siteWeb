@@ -5,7 +5,7 @@
 
 	<head>
 		<meta charset= 'utf-8' />
-		<link rel='stylesheet'  media='screen'  type='text/css'  href='../testcss.css' />
+		<link rel='stylesheet'  media='screen'  type='text/css'  href='../test.css' />
 	</head>
 	
 	<!--Corps de la page-->

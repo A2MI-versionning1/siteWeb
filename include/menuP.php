@@ -1,7 +1,7 @@
 		
 		<!--Fais appel au css via cette ligne de commande-->
 		
-		<link rel='stylesheet'   media='screen and (max-width: 768px)'  type='text/css'  href='../testcss.css' />
+		<link rel='stylesheet'   media='screen and (max-width: 768px)'  type='text/css'  href='../test.css' />
 		
 		<!--Fais appel à la méthode css 'bande3' via le div-->
 		
@@ -14,7 +14,7 @@
 			
 				<!--menu site A&M-->
 				
-				<li><br/><a href='../accueil/test2.php'><img src="../images/gif/Pre.gif"   style="margin-left: 95px" onmouseover="this.src='../images/gif/Pre2.gif'" onmouseout="this.src='../images/gif/Pre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 114px">Site A&M</font></a>
+				<li><br/><a href='../accueil/test.php'><img src="../images/gif/Pre.gif"   style="margin-left: 95px" onmouseover="this.src='../images/gif/Pre2.gif'" onmouseout="this.src='../images/gif/Pre.gif'" height='100px' width='100px'/></br><font color='white' style="margin-left: 114px">Site A&M</font></a>
 					
 				</li>
 				
