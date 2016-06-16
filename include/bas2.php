@@ -1,4 +1,3 @@
-		
 		<!--Fais appel au css via cette ligne de commande-->
 		
 		<link rel="stylesheet" media="screen" type="text/css" title="Design" href="../testcss.css" />

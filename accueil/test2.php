@@ -25,7 +25,7 @@
 				</div>
 			</div>
 			
-			<!--fais appel à la page haut2.php grâce à la méthode 'include'-->
+			<!--fais appel à la page menu2.php grâce à la méthode 'include'-->
 			
 			<?php
 				include ('../include/menu2.php');
@@ -38,7 +38,7 @@
 				<center><font size='2'><h1>Nous vous accompagnons sur votre création visuelle personnelle</h1</font></center>
 			</div>
 			
-			<!--fais appel à la page haut2.php grâce à la méthode 'include'-->
+			<!--fais appel à la page bas2.php grâce à la méthode 'include'-->
 			
 			<?php
 				include ('../include/bas2.php');

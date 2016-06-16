@@ -1,11 +1,12 @@
-html, body { 
-margin: 0; 
-padding: 0;
-width: 100%; 
-height: 100%;  
-} 
+html, body{
+   margin: 0px;
+   padding: 0px;
+   outline: 0px;
+   height: 100%;
+   
+}
 
-
+	
 #bande1{ 
 	padding: 0px; 
 	margin: 0px;
@@ -16,17 +17,34 @@ height: 100%;
 	background-color: black; 
 } 
 
+/* Bouton inscription sur la plateforme*/
+
+a.inscription {
+	text-decoration:none;
+	position: relative;
+	top:-83%;
+	right: -74.2%;
+	border: 2px;
+	font-family:Abadi MT Condensed Light;
+	color:white;
+}
+
+/* Bouton connexion sur la plateforme*/
+a.connexion{
+	text-decoration:none;
+	position: relative;
+	top:-70%;
+	right: -66.4%;
+	border: 2px;
+	font-family: times new roman;
+	color:white;
+}
+
 #bande2{
 	padding: 10px; 
 	margin: 0px;
 	border: none;  
 	height: 200px;
-	background-image:url(images/bandeDegradee.png);
-	background-repeat:no-repeat;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 #bande3{ 
@@ -34,14 +52,14 @@ height: 100%;
 	margin: 0px;
 	border: none;	
 	width: 100%; 
-	height: 200px; 
+	height: 150px; 
 	background-color: black; 
 } 
 
 #bande4 {
 	border: none;	
 	width:  100%; 
-	height: 175px; 
+	height: 225px; 
 }
 
 #bande5 {
@@ -49,7 +67,7 @@ height: 100%;
 	border: none;	
 	width:  100%; 
 	height: 100px; 
-	bottom:5%;
+	bottom:0%;
 	background-color: black; 
 }
 
@@ -68,10 +86,15 @@ height: 100%;
     background-size: cover;
 }
 
+/* Titre des pages*/
+
 #centerb1{
-	position:relative;
-	right:25%;
+	position:absolute;
+	right:15%;
+	top:55%
 }
+
+/*Infos sur la société*/
 
 #droitb5{
 	position:absolute;
@@ -79,13 +102,17 @@ height: 100%;
 	bottom:6.5%;
 }
 
+/*Titre des pages (englobe "centerb1")*/
+
 #ecritureHaut {
-	position: absolute;
-	top:75px;
-	right: 250px;
+	position: relative;
+	top:-330px;
+	right: 200px;
 	border: 2px;
 	font-family: times new roman;
 }
+
+/*Logo du bas*/
 
 #photobasC{
 	position: absolute;
@@ -95,64 +122,333 @@ height: 100%;
 	border: none;
 }
 
-#menuDeroulant {
-	margin:auto;
-	padding:30px;
-	right:auto;
-	left:auto;
-	width:900px;
+/*Flèche en bas à droite pour remonter la page*/
+
+#Fleche2{
+	bottom:5%;
+	right:1%;
+	position:absolute;
 }
 
-.nav {
-	list-style: none;
+/* Main menu */
+
+#menu
+{
+	width: 100%;
 	margin: 0;
-	padding:0;
-	line-height:0;
+	padding: 0px 0 0 0;
+	list-style: none;  
 }
 
-.nav a {
-	display: block;
-	padding:.8em;
+#menu li
+{
+	float: left;
+	padding: 0 0 20px 0;
+	position: relative;
+	line-height: 0;
+}
+
+#menu a 
+{
+	float: left;
+	height: 25px;
+	padding: 0 25px;
+	color: black;
+	text-transform: uppercase;
+	font: bold 12px/20px Arial, Helvetica;
 	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+}
+
+/*Affiche le sous menu*/
+
+#menu li:hover > ul
+{
+	display: block;
+}
+
+/* Sous-menu */
+
+#menu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    display: none;
+    position: absolute;
+    top: 128px;
+    left:30%;
+	width:175px;
+    z-index: 99999;
+	border:solid;
+}
+
+#menu ul ul
+{
+  top: -3px;
+  left: 175px;
+  width:50px;
+}
+
+#menu ul li
+{
+    float:inherit;
+    margin: 0;
+    padding: 0;
+    display: block;  
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;	
+}	
+
+#menu ul a
+{    
+    padding: 5px;
+	width: 140px;
+	height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+	text-transform: none;
+}
+
+/*Affiche le sous sous menu*/
+
+#menu ul  ul a:hover
+{
+	width:40px;	
+}
+
+#menu ul li:first-child > a:after
+{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -8px;
+    width: 100%;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+#menu ul ul li:first-child a:after
+{
+    left: -8px;
+    top: 12px;
+    width: 0;
+    height: 100;
+    border-left: 0;	
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+/* Clear floated elements */
+
+#menu:after 
+{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 
-.nav-item {
-	float: left; /* Pour que les liens s’affichent horizontalement */
-	position: relative; /* Crée un contexte de positionnement pour les sous-listes */
+/*Classe des boutons du bas*/
+
+.myButton {	
+	-moz-box-shadow:inset 0px 1px 3px 0px #d6d3d6;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #d6d3d6;
+	box-shadow:inset 0px 1px 3px 0px #d6d3d6;
+	background-color:transparent;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d6d3d6;
+	display:inline-block;
+	position: relative;
+	left:31%;
+	right:31%;
+	bottom:-20%;
+	cursor:pointer;
+	color:#d6d3d6;
+	font-family:Verdana;
+	font-size:15px;
+	padding:6px 9px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #d6d3d6;
+	transition-property: top;
+	-webkit-transition-property: top;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+	top: 15px;
 }
 
-.sub-nav {
-	display: none; /* Masque la sous-liste */
-	position: absolute; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichée */
-	left: 40%; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur */
-	/*top: 9em; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur, on le positionne explicitement en bas du conteneur */
-	white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
-	background-color:grey;
-	-moz-border-radius:10px 0;
-	-webkit-border-radius:10px 0;
-	border-radius:10px 0;
+/*Permet de faire l'effet montant*/
 
+.myButton:hover {
+	top: 0px;
 }
 
-.nav-item:hover .sub-nav {
-	display: inline-block; /* Affiche cette sous-liste au survol de son conteneur */
+/*Permet d'avoir un effet de zoom et une rotate sur la flèche(garder les deux sinon ne fonctionnent plus)*/
 
+img.zoomEffect {
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 1;
 }
 
-.test {
-	display: none; /* Masque la sous-liste */
-	position: relative; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichée */
-	left:180%;
-	top: -9em;
-	white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
-	background-color:grey;
-	-moz-border-radius:10px 0;
-	-webkit-border-radius:10px 0;
-	border-radius:10px 0;
+img.zoomEffect:hover {
+    -moz-transform: rotate(360deg) scale(1.15);
+    -webkit-transform: rotate(360deg) scale(1.15);
+    -o-transform: rotate(360deg) scale(1.15);
+    -ms-transform: rotate(360deg) scale(1.15);
+    transform: rotate(360deg) scale(1.15);
+    opacity: 1;
 }
 
-.niveau3:hover .test {
-	display:block; /* Affiche cette sous-liste au survol de son conteneur */
-	top: -1.6em; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur, on le positionne explicitement en bas du conteneur */
+/*Logo sur la bande colorée*/
+
+#imageBande2{
+	position: absolute;
+	right: 2%;
+	top: 20%;
+	border: none;
+}
+
+/*Effet de slide sur la bande colorée*/
+#slides div {
+	height: 220px; /* Égal à la hauteur de l'image */
+	margin: -10px;
+	overflow: hidden;
+	position: relative;
+	background-color:black;
+	border:solid;
+}
+
+/*Permet de gérer le pourcentage de décalage de la bande en passant dessus avec le curseurs*/
+
+#slides div:hover img {
+	transform: translateX(30%); /* Valeur négative égale à la hauteur de l'image */
+	-moz-transform: translateX(30%);
+	-o-transform: translateX(30%);
+	-webkit-transform: translateX(30%);
+}
+
+#slides div img {
+	left: 0;
+	position: absolute;
+	top: 0;
+	transition: transform 0.5s ease-in-out;
+	-moz-transition: -moz-transform 0.5s ease-in-out;
+	-o-transition: -o-transform 0.5s ease-in-out;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+/*Définit les caractéristiques de l'écriture sous la bande colorée*/
+
+#texteffet {
+		color: #d1d9df;
+		font-family:fantasy;
+}
+
+/*Formulaire*/
+
+p {
+  margin-top: 0px;
+}
+ 
+ /*Permet d'avoir un contour du formulaire*/
+ 
+fieldset {
+   background-color: #ffffff;
+    width: 500px;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    border: 2px solid grey;
+	background-image:url(images/bandeDegradee2.png);
+	
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ /*Permet d'avoir un titre par partie*/
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+ /*Tout les paramètres du formulaire*/
+label {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+
+/*Définit la couleur des "*"*/
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+ 
+input:focus {
+  background: #eaeaea;
+}
+ 
+input, textarea {
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+select {
+  width: 200px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+}
+
+/* Couleur du menu*/
+
+#flyers{
+	background-color:#E39E89;
+}
+
+#Logos{
+	background-color:#FFF8A8;
+}
+
+#Cartes{
+	background-color:#70F68B;
+}
+
+#Etiquettes{
+	background-color:#A2D2E6;
+}
+
+#Chartes{
+	background-color:#B1B7D4;
+}
+
+#A456{
+	background-color:#E39E89;
 }
