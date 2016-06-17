@@ -3,7 +3,7 @@ if(!empty($_POST['pseudo']))
 {
 // D'abord, je me connecte à la base de données.
 mysql_connect("localhost", "root", "");
-mysql_select_db("nom_db");
+mysql_select_db("test");
 
 // Je mets aussi certaines sécurités ici…
 $passe = mysql_real_escape_string(htmlspecialchars($_POST['passe']));

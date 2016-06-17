@@ -54,9 +54,9 @@
 					<fieldset>
 						<legend>Contact</legend>
 						<label for="tel">Votre numéro de téléphone</label><br>
-						<input id="tel" name="tel" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
+						<input id="tel" name="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
 						<label for="mail">Votre adresse Email<em>*</em></label><br>
-						<input id="mail" name="mail" type="email" placeholder="****@A&M.com" required=""><br><br>
+						<input id="mail" name="email" type="email" placeholder="****@A&M.com" required=""><br><br>
 					</fieldset>
 					<p><input type="submit" value="S'inscrire"></p>
 				</form>

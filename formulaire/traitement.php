@@ -27,9 +27,14 @@
 			<?php
 				include ('../include/menuP.php');
 			?>
-			<link rel="stylesheet" media="screen" type="text/css" title="Design" href="../testcss.css" />
+			
 			<center>
+			
 			<?php
+			function connectMaBase(){
+			$base = mysql_connect ('localhost', 'root', '');  
+			mysql_select_db ('MaBase', $test) ;
+			}
 			//Connexion à la base de donnée
 
 			/*$bdd = 'test';
@@ -49,15 +54,14 @@
 			else
 
 			echo "Echec de connexion – Veuillez contacter l’adminstrateur" ;*/
-			
 			$nom = $_POST['nom'];
 			$prenom = $_POST['prenom'];
 			$societe = $_POST["societe"];
 			$adresse = $_POST["adresse"];
 			$postal = $_POST["codePostal"];
 			$ville = $_POST["ville"];
-			$tel = $_POST["tel"];
-			$mail = $_POST["mail"];
+			$tel = $_POST["telephone"];
+			$mail = $_POST["email"];
 			$password = $_POST["passe"];
 
 			echo "<p><i>Voici les informations sur votre compte :</i></p><br/>
@@ -94,7 +98,6 @@
 
 			//On insère les informations du formulaire dans la table
 			$sql="insert into validation ( '',nom, prenom, societe, adresse, codePostal, ville, tel, mail, passe) values ('$nom','$prenom','$societe','$adresse','$postal','$ville','$tel','$mail', '$password')" ;
-
 			?>
 			</center>
 			
