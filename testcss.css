@@ -454,17 +454,3 @@ input[type=submit] {
 #A456{
 	background-color:#E39E89;
 }
-
-p {
-width:200px;
-height:10px;
-line-height:15px;
-text-align:center; /* centrage horizontal */ }
-
-span { 
-width:300px; /* largeur de la zone de texte */
-padding:10px; /* aération interne de la zone de texte */
-vertical-align:middle;
-display:inline-block;
-line-height:1.2; /* on rétablit le line-height */
-text-align:left; /* ... et l'alignement du texte */ }

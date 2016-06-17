@@ -62,21 +62,21 @@
 
 			echo "<p><i>Voici les informations sur votre compte :</i></p><br/>
 			<fieldset> 	<legend>Votre compte</legend>";
-			echo "<p><span>Votre nom est: " .$nom."</span></p>";
+			echo "<p>Votre nom est: " .$nom."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre prenom est: " .$prenom."</span></p>";
+			echo "<p>Votre prenom est: " .$prenom."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre nom de societe est: " .$societe."</span></p>";
+			echo "<p>Votre nom de societe est: " .$societe."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre adresse est: " .$adresse."</span></p>";
+			echo "<p>Votre adresse est: " .$adresse."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre code postal est: " .$postal."</span></p>";
+			echo "<p>Votre code postal est: " .$postal."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre ville est: " .$ville."</span></p>";
+			echo "<p>Votre ville est: " .$ville."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre numero de telephone est: " .$tel."</span></p>";
+			echo "<p>Votre numero de telephone est: " .$tel."</p>";
 			echo "<br/>";
-			echo "<p><span>Votre adresse email est: " .$mail."</span></p>";
+			echo "<p>Votre adresse email est: " .$mail."</p>";
 			echo "<br/>";
 				
 			echo "</fieldset>";
