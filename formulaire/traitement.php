@@ -27,7 +27,7 @@
 			<?php
 				include ('../include/menuP.php');
 			?>
-			
+			<link rel="stylesheet" media="screen" type="text/css" title="Design" href="../testcss.css" />
 			<center>
 			<?php
 			//Connexion à la base de donnée
@@ -49,7 +49,7 @@
 			else
 
 			echo "Echec de connexion – Veuillez contacter l’adminstrateur" ;*/
-
+			
 			$nom = $_POST['nom'];
 			$prenom = $_POST['prenom'];
 			$societe = $_POST["societe"];
@@ -60,23 +60,23 @@
 			$mail = $_POST["mail"];
 			$password = $_POST["passe"];
 
-			echo "<p><i>Voici les informations sur votre compte :</i></p>
+			echo "<p><i>Voici les informations sur votre compte :</i></p><br/>
 			<fieldset> 	<legend>Votre compte</legend>";
-			echo "Votre nom est: " .$nom;
+			echo "<p><span>Votre nom est: " .$nom."</span></p>";
 			echo "<br/>";
-			echo "Votre prenom est: " .$prenom;
+			echo "<p><span>Votre prenom est: " .$prenom."</span></p>";
 			echo "<br/>";
-			echo "Votre nom de societe est: " .$societe;
+			echo "<p><span>Votre nom de societe est: " .$societe."</span></p>";
 			echo "<br/>";
-			echo "Votre adresse est: " .$adresse;
+			echo "<p><span>Votre adresse est: " .$adresse."</span></p>";
 			echo "<br/>";
-			echo "Votre code postal est: " .$postal;
+			echo "<p><span>Votre code postal est: " .$postal."</span></p>";
 			echo "<br/>";
-			echo "Votre ville est: " .$ville;
+			echo "<p><span>Votre ville est: " .$ville."</span></p>";
 			echo "<br/>";
-			echo "Votre numero de telephone est: " .$tel;
+			echo "<p><span>Votre numero de telephone est: " .$tel."</span></p>";
 			echo "<br/>";
-			echo "Votre adresse email est: " .$mail;
+			echo "<p><span>Votre adresse email est: " .$mail."</span></p>";
 			echo "<br/>";
 				
 			echo "</fieldset>";
