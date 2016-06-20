@@ -30,7 +30,7 @@
 			
 			<center>
 				<h2>Formulaire d'inscription client</h2>
-				<form  method="post" action="traitement.php">
+				<form  method="post" action="">
 					<p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
 					<fieldset>
 						<legend>Informations personnelles</legend>
@@ -61,10 +61,9 @@
 					<p><input type="submit" value="S'inscrire"></p>
 				</form>
 			</center>
-			
 		
-			<?php
-				if(!empty($_POST['pseudo']))
+			<?php				
+				if(!empty($_POST['nom']))
 				{
 					// D'abord, je me connecte à la base de données.
 					mysql_connect("localhost", "root", "");
@@ -75,6 +74,7 @@
 					// Je mets aussi certaines sécurités ici…
 					$passe = mysql_real_escape_string(htmlspecialchars($_POST['passe']));
 					$passe2 = mysql_real_escape_string(htmlspecialchars($_POST['passe2']));
+
 					if($passe == $passe2)
 					{
 						$nom = mysql_real_escape_string(htmlspecialchars($_POST['nom']));
@@ -87,7 +87,7 @@
 						$email = mysql_real_escape_string(htmlspecialchars($_POST['email']));
 						// Je vais crypter le mot de passe.
 						$passe = sha1($passe);
-
+						echo($passe);
 						mysql_query("INSERT INTO validation VALUES('', '$nom', '$prenom', '$societe', '$adresse', '$codePostal', '$ville', '$telephone', '$passe', '$email')");
 					}
 					 

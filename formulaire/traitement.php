@@ -64,26 +64,7 @@
 			$mail = $_POST["email"];
 			$password = $_POST["passe"];
 
-			echo "<p><i>Voici les informations sur votre compte :</i></p><br/>
-			<fieldset> 	<legend>Votre compte</legend>";
-			echo "<p>Votre nom est: " .$nom."</p>";
-			echo "<br/>";
-			echo "<p>Votre prenom est: " .$prenom."</p>";
-			echo "<br/>";
-			echo "<p>Votre nom de societe est: " .$societe."</p>";
-			echo "<br/>";
-			echo "<p>Votre adresse est: " .$adresse."</p>";
-			echo "<br/>";
-			echo "<p>Votre code postal est: " .$postal."</p>";
-			echo "<br/>";
-			echo "<p>Votre ville est: " .$ville."</p>";
-			echo "<br/>";
-			echo "<p>Votre numero de telephone est: " .$tel."</p>";
-			echo "<br/>";
-			echo "<p>Votre adresse email est: " .$mail."</p>";
-			echo "<br/>";
-				
-			echo "</fieldset>";
+			
 			
 			try
 			{

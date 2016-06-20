@@ -9,16 +9,16 @@
 			<!--logo avec les liens des pages-->
 			
 			<br/>
-			<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo fb'><img src='../images\logoF.png' width='30' height='30' border='0' alt='logo fb'></a>
-			<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo twitter'><img src='../images\logoT.png' width='30' height='30' border='0' alt='logo twitter'></a>
-			<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo linkedin'><img src='../images\linkedin.png' width='30' height='30' border='0' alt='logo linkedin'></a><br/>
+			<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo fb'><img src='../images/logoF.png' width='30' height='30' border='0' alt='logo fb'></a>
+			<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo twitter'><img src='../images/logoT.png' width='30' height='30' border='0' alt='logo twitter'></a>
+			<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo linkedin'><img src='../images/linkedin.png' width='30' height='30' border='0' alt='logo linkedin'></a><br/>
 			<font color='#ffffff' size='2'>Rejoignez-nous sur les réseaux sociaux</font>
 					
 					
 			<!--logo entreprise-->
 			
 			<div id='photobasC'>
-				<center><img src='..\images\logoBas.png' height='80px' width='200px'/></center>
+				<center><img src='../images/logoBas.png' height='80px' width='200px'/></center>
 			</div>	
 			
 			<!--localisation de l'entreprise-->

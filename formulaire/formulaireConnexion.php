@@ -28,6 +28,8 @@
 				include ('../include/menuP.php');
 			?>
 			
+			<!-- formulaire de connexion -->
+			
 			<center>
 				<h2>Formulaire de connexion</h2>
 				<form  method="post" action="traitement.php">
