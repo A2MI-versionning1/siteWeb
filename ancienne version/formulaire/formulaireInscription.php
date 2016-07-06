@@ -87,7 +87,6 @@
 						$email = mysql_real_escape_string(htmlspecialchars($_POST['email']));
 						// Je vais crypter le mot de passe.
 						$passe = sha1($passe);
-						echo($passe);
 						mysql_query("INSERT INTO validation VALUES('', '$nom', '$prenom', '$societe', '$adresse', '$codePostal', '$ville', '$telephone', '$passe', '$email')");
 					}
 					 

@@ -12,11 +12,11 @@ html, body{
 	background-image:url(C:\wamp\www\siteWeb\images\logo.png) no-repeat-x;
 	border: none; 
 	width: 100%; 
-	height: 175px; 
-	background-color: black; 
-} 
+	height: 175px;
+	background-color: black;
+}
 
-/* Bouton inscription sur la plateforme*/
+/* Bouton inscription sur la plateforme */
 
 a.inscription {
 	text-decoration:none;

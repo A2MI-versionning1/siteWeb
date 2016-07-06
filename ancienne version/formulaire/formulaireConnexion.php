@@ -43,7 +43,8 @@
 					<p><input type="submit" value="Se connecter"></p>
 				</form>
 			</center>
-
+			
+			<!-- connexion de l'utilisateur -->
 
 			<!--fais appel à la page bas2.php grâce à la méthode 'include'-->
 			
