@@ -1,7 +1,7 @@
-<div classe='formulaireContact'>
-	<div id='formulaireContact'>
+<div classe='formulaireInscription'>
+	<div id='formulaireInscription'>
 		<center>
-			<h2>Formulaire de contact</h2>
+			<h2>Formulaire d'inscription</h2>
 			<form  method="post" action="traitement.php">
 				<p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
 				<fieldset>
@@ -18,6 +18,10 @@
 					<input id="codePostal" placeholder="ex: 17000" required=""><br><br>
 					<label for="ville">Votre ville <em>*</em></label><br>
 					<input id="ville" placeholder="ex: La Rochelle" required=""><br><br>
+					<label for="password">Votre mot de passe <em>*</em></label><br>
+					<input id="password" placeholder="ex: *********" required=""><br><br>
+					<label for="password2">Confirmation du mot de passe <em>*</em></label><br>
+					<input id="password2" placeholder="ex: *********" required=""><br><br>
 				</fieldset>
 				<fieldset>
 					<legend>Contact</legend>
@@ -25,16 +29,8 @@
 					<input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
 					<label for="email">Votre adresse Email<em>*</em></label><br>
 					<input id="email" type="email" placeholder="****@A&M.com" required=""><br><br>
-					<label>Objet de votre demande</label><br>
-					<select name="field4" class="field-select">
-					<option value="demande">Demande de devis</option>
-					<option value="infos">Demandes d'informations</option>
-					<option value="autres">Autres</option>
-					</select><br><br>
-					<label> Votre message</label><br>
-					<textarea id="comments"></textarea>
 				</fieldset>
-				<p><input type="submit" value="Envoyer"></p>
+				<p><input type="submit" value="S'inscrire"></p>
 			</form>
 		</center>
 	</div>

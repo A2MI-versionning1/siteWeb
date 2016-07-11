@@ -257,3 +257,12 @@ p {
 	background-color : white;
 }
 
+.formulaireInscription {
+	flex : 1 1 auto;
+	display : flex;
+}
+
+#formulaireInscription {
+	background : url(static/img/bandeDegradee.jpg) no-repeat;
+}
+

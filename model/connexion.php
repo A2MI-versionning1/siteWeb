@@ -1,6 +1,6 @@
 <?php
 
-require("connect.php");
+require("model/connect.php");
 function connect_bd(){
 	$dsn="mysql:dbname=".BASE.";host=".SERVER;
 		try{
