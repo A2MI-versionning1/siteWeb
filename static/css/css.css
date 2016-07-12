@@ -263,6 +263,17 @@ p {
 }
 
 #formulaireInscription {
-	background : url(static/img/bandeDegradee.jpg) no-repeat;
+	/* background : url(static/images/bandeDegradee.jpg) no-repeat; */
+	background-color : white;
+}
+
+.formulaireConnexion {
+	flex : 1 1 auto;
+	display : flex;
+}
+
+#formulaireConnexion {
+	/* background : url(static/images/bandeDegradee.jpg) no-repeat; */
+	background-color : white;
 }
 

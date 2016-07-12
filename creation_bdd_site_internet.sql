@@ -1,7 +1,14 @@
 create table UTILISATEUR (
 	id int not null AUTO_INCREMENT,
-	login varchar(50) not null,
 	password varchar(255) not null,
+	nom varchar(255) not null,
+	prenom varchar(255) not null,
+	societe varchar(255)not null,
+	adresse varchar(255) not null,
+	cp varchar(255) not null,
+	ville varchar(255) not null,
+	tel int,
+	mail varchar(255) not null,
 	primary key (id)
 );
 

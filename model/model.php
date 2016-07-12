@@ -124,6 +124,24 @@ function getTitre2($idtitre){
 	return $row['texttitre'];
 }
 
+// insérer une nouvelle inscription
+function insertInscription($nom, $prenom, $societe, $adresse, $cp, $ville, $tel, $mail, $password){
+	$connexion = connect_bd();
+	$connexion->query("SET NAMES UTF8");
+	$sql="INSERT INTO UTILISATEUR VALUES ('', ':password', :nom',':prenom',':societe',':adresse',':cp',':ville',':tel',':mail')";
+	$stmt->bindParam(':nom', $nom);
+	$stmt->bindParam(':prenom', $prenom);
+	$stmt->bindParam(':societe', $societe);
+	$stmt->bindParam(':adresse', $adresse);
+	$stmt->bindParam(':cp', $cp);
+	$stmt->bindParam(':ville', $ville);
+	$stmt->bindParam(':tel', $tel);
+	$stmt->bindParam(':mail', $mail);
+	$stmt->bindParam(':password', $password);
+	$stmt=$connexion->prepare($sql);
+	$stmt->execute();
+}
+
 
 
 ?>

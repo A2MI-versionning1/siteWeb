@@ -1,8 +1,8 @@
 <div classe='formulaireInscription'>
 	<div id='formulaireInscription'>
 		<center>
-			<h2>Formulaire d'inscription</h2>
-			<form  method="post" action="traitement.php">
+			<h2>Formulaire d'inscription</h2>			
+			<form  method="POST" action="">				
 				<p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
 				<fieldset>
 					<legend>Informations personnelles</legend>
@@ -30,8 +30,23 @@
 					<label for="email">Votre adresse Email<em>*</em></label><br>
 					<input id="email" type="email" placeholder="****@A&M.com" required=""><br><br>
 				</fieldset>
-				<p><input type="submit" value="S'inscrire"></p>
+				<p><input type="submit" value="S'inscrire" name="valider"></p>
 			</form>
 		</center>
+		
+		<?php		
+		if(isset($_POST['valider'])){
+			/* $passe = mysql_real_escape_string(htmlspecialchars($_POST['passe']));
+			$passe2 = mysql_real_escape_string(htmlspecialchars($_POST['passe2'])); */
+			if($_POST['password'] == $_POST['password2']){
+				echo('aaa');
+				insertInscription($_POST['nom'], $_POST['prenom'], $_POST['societe'], $_POST['adresse'], $_POST['codePostal'], $_POST['ville'], $_POST['telephone'], $_POST['email'], $_POST['password']);
+			}
+			else{
+				echo('echec 2');
+			}
+		}
+		?>
+		
 	</div>
 </div>

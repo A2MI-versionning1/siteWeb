@@ -2,7 +2,7 @@
 	<div id='formulaireConnexion'>
 		<center>
 			<h2>Formulaire de connexion</h2>
-			<form  method="post" action="traitement.php">
+			<form  method="post" action="">
 				<fieldset>
 					<legend>Connexion</legend>
 					<label for="telephone">Votre numéro de téléphone</label><br>

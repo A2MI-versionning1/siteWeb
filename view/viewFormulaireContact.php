@@ -2,7 +2,7 @@
 	<div id='formulaireContact'>
 		<center>
 			<h2>Formulaire de contact</h2>
-			<form  method="post" action="traitement.php">
+			<form  method="post" action="">
 				<p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
 				<fieldset>
 					<legend>Informations personnelles</legend>
