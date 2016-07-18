@@ -125,10 +125,13 @@ function getTitre2($idtitre){
 }
 
 // insérer une nouvelle inscription
-function insertInscription($nom, $prenom, $societe, $adresse, $cp, $ville, $tel, $mail, $password){
+function insertInscription($id, $nom, $prenom, $societe, $adresse, $cp, $ville, $tel, $mail, $password){
 	$connexion = connect_bd();
 	$connexion->query("SET NAMES UTF8");
-	$sql="INSERT INTO UTILISATEUR VALUES ('', ':password', :nom',':prenom',':societe',':adresse',':cp',':ville',':tel',':mail')";
+	$sql="INSERT INTO UTILISATEUR(id,password,nom,prenom,societe,adresse,cp,ville,tel,mail) VALUES (:id,:password,:nom,:prenom,:societe,:adresse,:cp,:ville,:tel,:mail)";
+	$stmt=$connexion->prepare($sql);
+	$stmt->bindParam(':id', $id);
+	$stmt->bindParam(':password', $password);
 	$stmt->bindParam(':nom', $nom);
 	$stmt->bindParam(':prenom', $prenom);
 	$stmt->bindParam(':societe', $societe);
@@ -137,9 +140,19 @@ function insertInscription($nom, $prenom, $societe, $adresse, $cp, $ville, $tel,
 	$stmt->bindParam(':ville', $ville);
 	$stmt->bindParam(':tel', $tel);
 	$stmt->bindParam(':mail', $mail);
-	$stmt->bindParam(':password', $password);
-	$stmt=$connexion->prepare($sql);
 	$stmt->execute();
+}
+
+// vérifie le mail et le mot de passe d'un utilisateur
+function recuperePassword($mail){
+	$connexion = connect_bd();
+	$connexion->query("SET NAMES UTF8");
+	$sql="SELECT password FROM UTILISATEUR WHERE mail = :mail";
+	$stmt=$connexion->prepare($sql);
+	$stmt->bindParam(':mail', $mail);
+	$stmt->execute();
+	foreach ($stmt as $row)
+	return $row['password'];
 }
 
 
