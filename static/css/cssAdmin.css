@@ -1,0 +1,231 @@
+/* version utilisant flex */
+
+* {
+	/* box-sizing : border-box; */
+}
+
+html {
+	display : flex;
+	flex-direction : column;
+	overflow-x : hidden;
+}
+
+body {
+	display : flex;
+	flex-direction : column;
+	/* min-height : 100vh; */
+	background-color : black;
+}
+
+p {
+	color : white;
+}
+
+/* Haut de page */
+
+.Haut {
+	flex : 1 1 auto;
+	display : inline-flex;
+	padding-left : 0px;
+}
+
+#haut {
+	flex-direction : row;
+	height : 10%;
+}
+
+#haut > img {
+	width : 14%;
+	position : relative;
+}
+
+#haut > p {
+	text-align : center;
+	color : white;
+	font-size : 4vw;
+	margin : 2% auto 0 0;
+	position : absolute;
+	width : 100%;
+}
+
+/* Menu */
+
+.menu {
+	flex : 1 1 auto;
+	display : flex;
+}
+
+/* #MenuBande {
+	border : 1% 1% 1% 1%;
+	border-color : green;
+} */
+
+#MenuBande > #MenuBande1 > #bande > img {
+	width : 100%;
+	height : 23%;
+	position : absolute;
+	transition: transform 0.5s ease-in-out;
+	-moz-transition: -moz-transform 0.5s ease-in-out;
+	-o-transition: -o-transform 0.5s ease-in-out;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+#MenuBande > #MenuBande1 > #logoeffet > img {
+	width : 14%;
+	position : relative;
+	margin-top : 1%;
+	margin-left : 85%;
+}
+
+/* #MenuBande #MenuBande1 {
+	position : absolute;
+} */
+
+#MenuBande #MenuBande1:hiver > #bande > img {
+	transform: translateX(30%); /* Valeur négative égale à la hauteur de l'image */
+	-moz-transform: translateX(30%);
+	-o-transform: translateX(30%);
+	-webkit-transform: translateX(30%);
+}
+
+/* #MenuBande > #bande > p {
+	position : relative;
+} */
+
+#Menu {
+	width : 100%;
+	height : 10%;
+	justify-content : flex-start;
+}
+
+#Menu > a {
+	padding-left : 5%;
+	padding-right : 5%;
+	padding-top : 5%;
+	text-decoration : none;
+	color : white;
+}
+
+#Menu > a > ul > li > a {
+	color : white;
+}
+
+#Menu > a > img {
+	width : 7%;
+	height : 7%;
+	margin-bottom : 2%;
+}
+
+#Menu > a > font {
+	margin-left : -9%;
+}
+
+#Menu > ul {
+	background-color : red;
+}
+
+/* fin de page */
+
+.footer {
+	flex : 1 1 auto;
+	display : flex;
+}
+
+#footer1 #footer11 {
+	position : absolute;
+}
+
+#footer1 #footer11 #foot {
+	width : 100%;
+	height : 33%;
+	position : absolute;
+}
+
+#footer1 #footer11 #foot5 {
+	position : relative;	
+	margin-top : 0%;
+	margin-left : 80%;
+}
+
+#footer1 #footer11 #foot5 > img {
+	width : 160%;
+}
+
+#footer1 #info {
+	position : relative;
+	margin-top : 0%;
+	margin-left : 78%;
+}
+
+#footer2 #foot3 > img {
+	width : 100%;
+	height : 5%;
+	position : absolute;
+}
+
+#footer2 #foot2 {
+	margin-left : 35%;	
+	position : relative;
+}
+
+#footer2 #foot2 > a {
+	display :inline-block;
+	margin-top : 1.5%;
+}
+
+#footer2 #foot2 > a > form > input {
+	border-radius : 4px;
+	color : grey;
+	font-weight : bold;
+	background-color : transparent;
+	/* -moz-box-shadow:inset 0px 1px 3px 0px #d6d3d6;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #d6d3d6;
+	box-shadow:inset 0px 1px 3px 0px #d6d3d6; */
+	/* background-color:transparent;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px; */
+/* 	border-radius:5px; */
+	border:1px solid #d6d3d6;
+	display:inline-block;
+	position: relative;
+	/* left:31%;
+	right:31%; */
+	/* bottom:-20%; */
+	cursor:pointer;
+	color:#d6d3d6;
+	font-family:Verdana;
+	font-size:15px;
+	/* padding:6px 9px;  */
+	text-decoration:none;
+	/* text-shadow:0px -1px 0px #d6d3d6; */
+	/* transition-property: top;
+	-webkit-transition-property: top; */
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+	top: 15px;
+	margin-bottom : 45px;
+}
+
+#footer2 #foot2 > a > form > input:hover {
+	top : 0px;
+}
+
+#footer2 #foot2 > img {
+	width : 6%;
+	margin-left : 30%;
+	-moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 1;
+}
+
+#footer2 #foot2 > img:hover {
+	-moz-transform: rotate(360deg) scale(1.15);
+    -webkit-transform: rotate(360deg) scale(1.15);
+    -o-transform: rotate(360deg) scale(1.15);
+    -ms-transform: rotate(360deg) scale(1.15);
+    transform: rotate(360deg) scale(1.15);
+    opacity: 1;
+}
