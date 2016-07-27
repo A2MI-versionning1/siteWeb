@@ -4,12 +4,13 @@
 	<head>
 		<meta charset= 'utf-8' />
 		<link rel="stylesheet" href="../static/css/cssAdmin.css">
+		<script src="//cdn.ckeditor.com/4.5.10/full/ckeditor.js"></script>
 	</head>	
 	<!--Corps de la page-->
 	<body>
 		<?php
 			require '../model/modelAdmin.php';
-			$titre = getTitre(25);
+			$titre = getTitre(31);
 			$logo = getImage(1);
 			$logoeffet = getImage(3);
 			$bandeeffet = getImage(2);
@@ -47,6 +48,7 @@
 			require '../view/admin/viewTitre.php';
 			require '../view/admin/viewMenu.php';
 			require '../view/admin/viewCentral.php';
+			updateText(7, $_POST['editor2']);
 			require '../view/admin/viewFooter.php';
 		?>		
 	</body>

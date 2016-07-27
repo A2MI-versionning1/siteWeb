@@ -19,11 +19,11 @@
 			$logomenu3 = getImage(6);
 			$logomenu4 = getImage(7);
 			$logomenu5 = getImage(8);
-			$getTitre1 = getTitreMenu(2);
-			$getTitre2 = getTitreMenu(3);
-			$getTitre3 = getTitreMenu(4);
-			$getTitre4 = getTitreMenu(5);
-			$getTitre5 = getTitreMenu(6);
+			$getTitre1 = getTitre2(25);
+			$getTitre2 = getTitre2(9);
+			$getTitre3 = getTitre2(7);
+			$getTitre4 = getTitre2(26);
+			$getTitre5 = getTitre2(8);
 			$logoFacebook = getImage(9);
 			$logoTweeter = getImage(10);
 			$logoLinkedin = getImage(11);

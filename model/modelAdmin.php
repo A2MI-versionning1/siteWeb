@@ -105,4 +105,24 @@ function getTexte2($idtext){
 	return $row['text'];
 }
 
+function updateTitre($id, $text){
+	$connexion = connect_bd();
+	$connexion->query("SET NAMES UTF8");
+	$sql="UPDATE TITRE SET texttitre = :text where idtitre = :id";
+	$stmt=$connexion->prepare($sql);
+	$stmt->bindParam(':text', $text);
+	$stmt->bindParam(':id', $id);
+	$stmt->execute();
+}
+
+function updateText($id, $text){
+	$connexion = connect_bd();
+	$connexion->query("SET NAMES UTF8");
+	$sql="UPDATE TEXT SET text = :text where idtext = :id";
+	$stmt=$connexion->prepare($sql);
+	$stmt->bindParam(':text', $text);
+	$stmt->bindParam(':id', $id);
+	$stmt->execute();
+}
+
 ?>

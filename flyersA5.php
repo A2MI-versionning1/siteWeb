@@ -27,7 +27,7 @@
 			$logoFacebook = getImage(9);
 			$logoTweeter = getImage(10);
 			$logoLinkedin = getImage(11);
-			$textMenu = getTexte2(8);
+			$textMenu = getTexte2(14);
 			$textreseausocio = getTexte(2);
 			$imgfooter = getImage(12);
 			$adresse = getTexte2(3);

@@ -9,7 +9,7 @@
 	<body>
 		<?php
 			require 'model/model.php';
-			$titre = getTitre2(23);
+			$titre = getTitre2(6);
 			$logo = getImage(1);
 			$logoeffet = getImage(3);
 			$bandeeffet = getImage(2);
@@ -46,8 +46,19 @@
 			$soussousmenu2 = getTitreSousSousMenu(15);
 			$soussousmenu3 = getTitreSousSousMenu(16);
 			require 'view/viewTitre.php';
-			require 'view/viewMenu.php';
+			require 'view/viewMenu.php';			
 			require 'view/viewFormulaireContact.php';
+		?>
+			<?php
+				$to = 'kev.bouton@orange.fr';
+				$subject = $_POST['field4'];
+				$message = $_POST['comments'];
+				$headers = 'From:' . $_POST['email'] . "\r\n" . 'Reply-To: ' . $to . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+	
+				mail($to, $subject, $message, $headers);
+			?>
+		<?php
+			require 'view/viewMaps.php';
 			require 'view/viewFooter.php';
 		?>		
 	</body>

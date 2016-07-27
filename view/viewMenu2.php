@@ -28,6 +28,6 @@
 				<li><a href="etiquettes.php"><?php echo $sousmenu4 ?></a></li>
 				<li><a href="chartegraphique.php"><?php echo $sousmenu5 ?></a></li>
 			</ul>
-		<a href="logos.php"><img src='static/images/gif/<?php echo $logomenu5 ?>'><font><?php echo $getTitre5 ?></font></a>
+		<a href="logos2.php"><img src='static/images/gif/<?php echo $logomenu5 ?>'><font><?php echo $getTitre5 ?></font></a>
 	</div>	
 </div>
