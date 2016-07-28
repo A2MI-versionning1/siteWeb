@@ -6,6 +6,6 @@
 				CKEDITOR.replace('editor2');
 			</script>
 			<p><input for="editor2" type="submit" value="valider"></p>
-		</form>		
+		</form>
 	</div>
 </div>

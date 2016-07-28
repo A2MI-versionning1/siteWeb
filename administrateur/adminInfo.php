@@ -10,7 +10,7 @@
 	<body>
 		<?php
 			require '../model/modelAdmin.php';
-			$titre = getTitre(37);
+			$titre = getTitre(35);
 			$logo = getImage(1);
 			$logoeffet = getImage(3);
 			$bandeeffet = getImage(2);
@@ -47,10 +47,7 @@
 			$logoLinkedin = getImage(11);
 			require '../view/admin/viewTitre.php';
 			require '../view/admin/viewMenu.php';
-			require '../view/admin/viewCentral.php';
-			if($_POST['editor2'] != null){
-				updateText(11, $_POST['editor2']);
-			}
+			require '../view/admin/viewCentralInfo.php';			
 			require '../view/admin/viewFooter.php';
 		?>		
 	</body>

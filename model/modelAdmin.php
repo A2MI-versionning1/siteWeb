@@ -125,4 +125,15 @@ function updateText($id, $text){
 	$stmt->execute();
 }
 
+function getTitre2($idtitre){
+	$connexion = connect_bd();
+	$connexion->query("SET NAMES UTF8");
+	$sql="SELECT texttitre FROM TITRE where idtitre = :id";
+	$stmt=$connexion->prepare($sql);
+	$stmt->bindParam(':id', $idtitre);
+	$stmt->execute();
+	foreach ($stmt as $row)
+	return $row['texttitre'];
+}
+
 ?>

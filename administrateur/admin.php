@@ -48,7 +48,9 @@
 			require '../view/admin/viewTitre.php';
 			require '../view/admin/viewMenu.php';
 			require '../view/admin/viewCentral.php';
-			updateText(7, $_POST['editor2']);
+			if($_POST['editor2'] != null){
+				updateText(7, $_POST['editor2']);
+			}			
 			require '../view/admin/viewFooter.php';
 		?>		
 	</body>

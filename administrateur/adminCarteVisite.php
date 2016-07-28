@@ -46,9 +46,11 @@
 			$logoTweeter = getImage(10);
 			$logoLinkedin = getImage(11);
 			require '../view/admin/viewTitre.php';
-			require '../view/admin/viewMenu.php';
+			require '../view/admin/viewMenu2.php';
 			require '../view/admin/viewCentral.php';
-			updateText(10, $_POST['editor2']);
+			if($_POST['editor2'] != null){
+				updateText(10, $_POST['editor2']);
+			}
 			require '../view/admin/viewFooter.php';
 		?>		
 	</body>

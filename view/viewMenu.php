@@ -44,8 +44,8 @@
 		<a href="contact.php"><img src='static/images/gif/<?php echo $logomenu5 ?>'><font><?php echo $getTitre5 ?></font></a>
 			<ul>	
 				<!-- Sous-menu de contact -->
-				<li><a href=""><?php echo $sousmenu6 ?></a></li>
-				<li><a href=""><?php echo $sousmenu7 ?></a></li>
+				<li><a href="#formulaireContact"><?php echo $sousmenu6 ?></a></li>
+				<li><a href="#situer"><?php echo $sousmenu7 ?></a></li>
 			</ul>
 	</div>	
 </div>

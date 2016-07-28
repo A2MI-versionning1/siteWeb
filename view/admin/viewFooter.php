@@ -12,10 +12,10 @@
 			</div>
 		</div>
 		<div id='info'>
-			<p> <?php echo $adresse ?> </p>
-			<p> <?php echo $tel ?> </p>
+			<p> <?php echo $adresse ?> </p>			
 			<p> <?php echo $cpville ?> </p>
-			<p> <?php echo $mail ?> </p>
+			<p> <?php echo 'Tel: ' . $tel ?> </p>
+			<p> <?php echo 'E-mail: ' . $mail ?> </p>
 		</div>
 	</div>
 	<div id='footer2'>
@@ -28,7 +28,7 @@
 			<a href='#'><form><input type='button' value='Mentions légales'></form></a>
 			<a href='#'><form><input type='button' value='charte RSE'></form></a>
 			<a href='#'><form><input type='button' value='CGV'></form></a>
-			<img type='button' src='../static/images/<?php echo $imgretourhaut ?>'>
+			<a href='#haut'><img type='button' src='../static/images/<?php echo $imgretourhaut ?>'></a>
 		</div>
 	</div>
 </div>

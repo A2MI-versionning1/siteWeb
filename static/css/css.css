@@ -228,8 +228,8 @@ p {
 	top : 0px;
 }
 
-#footer2 #foot2 > img {
-	width : 6%;
+#footer2 #foot2 > a > img {
+	width : 25%;
 	margin-left : 30%;
 	-moz-transition: all 0.5s ease-in-out 0s;
     -webkit-transition: all 0.5s ease-in-out 0s;
@@ -239,7 +239,7 @@ p {
     opacity: 1;
 }
 
-#footer2 #foot2 > img:hover {
+#footer2 #foot2 > a > img:hover {
 	-moz-transform: rotate(360deg) scale(1.15);
     -webkit-transform: rotate(360deg) scale(1.15);
     -o-transform: rotate(360deg) scale(1.15);
