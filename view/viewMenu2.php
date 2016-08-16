@@ -12,7 +12,7 @@
 	</div>
 	<div id='Menu'>
 		<a href="index.php"><img src='static/images/gif/<?php echo $logomenu1 ?>'><font><?php echo $getTitre1 ?></font></a>
-		<a href="cartedevisite.php"><img src='static/images/gif/<?php echo $logomenu2 ?>'><font><?php echo $getTitre2 ?></font></a>
+		<a href="cartedevisite2.php"><img src='static/images/gif/<?php echo $logomenu2 ?>'><font><?php echo $getTitre2 ?></font></a>
 		<a href="flyers.php"><img src='static/images/gif/<?php echo $logomenu3 ?>'><font><?php echo $getTitre3 ?></font></a>
 		<a href=""><img src='static/images/gif/<?php echo $logomenu4 ?>'><font><?php echo $getTitre4 ?></font></a>
 			<ul>	

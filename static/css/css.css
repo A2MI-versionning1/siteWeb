@@ -277,3 +277,13 @@ p {
 	background-color : white;
 }
 
+.modifimg {
+	flex : 1 1 auto;
+	display : flex;
+	display : flex;
+}
+
+#modifimg {
+	background-color : white;
+}
+
